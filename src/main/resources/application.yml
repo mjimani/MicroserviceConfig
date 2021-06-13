@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: Config
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://${user.home}/WorkSpace/LearningForStudent/Microservices/application-config
