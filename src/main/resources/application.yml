@@ -7,4 +7,4 @@ spring:
     config:
       server:
         git:
-          uri: file://${user.home}/WorkSpace/LearningForStudent/Microservices/application-config
+          uri: file://${user.home}/WorkSpace/Microservices/application-config
